@@ -1,0 +1,79 @@
+/* receipt.css */
+.receipt-modal .modal-dialog {
+  max-width: 800px;
+  width: 100%;
+}
+
+.receipt-content {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.receipt-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.receipt-header h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.receipt-header p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.receipt-items {
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 20px 0;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.receipt-item span {
+  flex: 1;
+  text-align: center;
+}
+
+.receipt-item:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.receipt-summary {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.receipt-summary div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.receipt-summary div span {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.receipt-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.receipt-footer span {
+  display: block;
+  margin-top: 10px;
+}

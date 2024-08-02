@@ -1,0 +1,50 @@
+.sales-container {
+  margin-top: 100px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  box-shadow: inset 100px;
+}
+
+.sales-container h1 {
+  color: #343a40;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.top-sales-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-sales-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #495057;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
